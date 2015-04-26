@@ -27,5 +27,11 @@ public class BootstrapBasicDemoController {
 		logger.info("**Calling gridSystem method..");
 		return "bootstrap/gridsystem";
 	}
+	
+	@RequestMapping(value = "/fixedLayout", method = RequestMethod.GET)
+	public String fixedLayout() {
+		logger.info("**Calling gridSystem method..");
+		return "bootstrap/fixedLayout";
+	}
 
 }
