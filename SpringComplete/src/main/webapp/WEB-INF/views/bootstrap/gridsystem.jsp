@@ -3,10 +3,13 @@
 <html>
 <head>
     <title>Example of Bootstrap 3 Grid System</title>
-    <link href="<c:url value="/resources/css/bootstrap-css/3.3.4/bootstrap.min.css" />" rel="stylesheet"  type="text/css" />
-	<link href="<c:url value="/resources/css/bootstrap-css/3.3.4/bootstrap-theme.min.css" />" rel="stylesheet"  type="text/css" />		
-	<script type="text/javascript" src="<c:url value="/resources/js/bootstrap-js/3.3.4/bootstrap.min.js" />"></script>
-	<script type="text/javascript" src="<c:url value="/resources/jquery/1.6/jquery.min.js" />"></script>
+		    <!-- BootStrap CSS -->
+	<link href="<c:url value="/resources/css/bootstrap-css/3.3.4/bootstrap.min.css" />" rel="stylesheet"  type="text/css" />
+	<link href="<c:url value="/resources/css/bootstrap-css/3.3.4/bootstrap-theme.min.css" />" rel="stylesheet"  type="text/css" />
+
+       <!-- BootStrap JS -->
+    <script type="text/javascript" src="<c:url value="/resources/js/bootstrap-js/3.3.4/bootstrap.min.js" />"></script>
+    <script type="text/javascript" src="<c:url value="/resources/jquery/1.6/jquery.min.js" />"></script>
 <style type="text/css">
     /* Example 1: */
     p{
@@ -36,6 +39,7 @@
 </style>
 </head>
 <body>
+
 <!-- Example 1: --> 
 <div class="container">
         <div class="row">
