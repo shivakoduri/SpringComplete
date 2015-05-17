@@ -7,7 +7,7 @@
     <link href="<c:url value="/resources/css/bootstrap-css/3.3.4/bootstrap.min.css" />" rel="stylesheet"  type="text/css" />
 	<link href="<c:url value="/resources/css/bootstrap-css/3.3.4/bootstrap-theme.min.css" />" rel="stylesheet"  type="text/css" />		
 	<script type="text/javascript" src="<c:url value="/resources/js/bootstrap-js/3.3.4/bootstrap.min.js" />"></script>
-	<script type="text/javascript" src="<c:url value="/resources/jquery/1.6/jquery.min.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/jquery/1.6/jquery.js" />"></script>
 <style type="text/css">
     body{
     	padding-top: 70px;

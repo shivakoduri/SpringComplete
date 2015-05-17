@@ -9,7 +9,7 @@
 
        <!-- BootStrap JS -->
     <script type="text/javascript" src="<c:url value="/resources/js/bootstrap-js/3.3.4/bootstrap.min.js" />"></script>
-    <script type="text/javascript" src="<c:url value="/resources/jquery/1.6/jquery.min.js" />"></script>
+    <script type="text/javascript" src="<c:url value="/resources/jquery/1.6/jquery.js" />"></script>
 <style type="text/css">
     /* Example 1: */
     p{

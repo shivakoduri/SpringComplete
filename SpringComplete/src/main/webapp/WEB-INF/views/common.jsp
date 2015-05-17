@@ -22,12 +22,13 @@
 <!-- Angular JS -->
 <script type="text/javascript" src="<c:url value="/resources/angular-js/angular.min.js" />"></script>
 
+
+
 <script type="text/javascript">
 $(document).ready(function() {
 	$("#tabs").tabs();
 	console.log('ALL CSS & JS loaded...');
 });
-
 </script>
 </body>
 </html>
