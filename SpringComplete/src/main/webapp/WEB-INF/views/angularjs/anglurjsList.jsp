@@ -1,5 +1,6 @@
 <head>
 	<link href="<c:url value="/resources/css/jquery/style.css" />" rel="stylesheet"  type="text/css" />
+	
 </head>
 <body>
 <div id="angularjs">

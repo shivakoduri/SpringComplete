@@ -27,6 +27,8 @@
 <script type="text/javascript">
 $(document).ready(function() {
 	$("#tabs").tabs();
+	
+	$("#tabs").bind("tabsselect", function(event, ui) { window.location.hash = ui.tab.hash; });
 	console.log('ALL CSS & JS loaded...');
 });
 </script>
