@@ -28,4 +28,9 @@ public class AngularBasicDemoController {
 		logger.info("**Calling Angular Basic examples demo..");
 		return "angularjs/angularJsBasics";
 	}
+	
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String home() {
+		return "home";
+	}
 }
