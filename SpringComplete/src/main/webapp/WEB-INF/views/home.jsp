@@ -6,7 +6,7 @@
 <body>
  <%@include file="common.jsp" %>
 
-<h1><a href="<c:url value="/" />">A Glimpse On Frameworks</a></h1>
+<h1><a href="<c:url value="/" />">One Stop for Frameworks</a></h1>
 <div id="tabs">
 <ul>
 		<li><a href="#bootstrap">BootStrap</a></li>
