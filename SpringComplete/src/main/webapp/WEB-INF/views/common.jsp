@@ -30,7 +30,8 @@ $(document).ready(function() {
 	
 	$("#tabs").bind("tabsselect", function(event, ui) { window.location.hash = ui.tab.hash; });
 	console.log('ALL CSS & JS loaded...');
-});
+	
+	});
 </script>
 </body>
 </html>
