@@ -29,6 +29,12 @@ public class AngularBasicDemoController {
 		return "angularjs/angularJsBasics";
 	}
 	
+	@RequestMapping(value = "/advanced", method = RequestMethod.GET)
+	public String advancedExamples() {
+		logger.info("**Calling Angular Advanced examples demo..");
+		return "angularjs/angularJsAdvanced";
+	}
+	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home() {
 		return "home";

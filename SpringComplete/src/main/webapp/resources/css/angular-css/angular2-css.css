@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  -webkit-font-smoothing:antialiased;
+  border:0;
+  box-sizing:border-box;
+  font-family:inherit;
+  font-size:inherit;
+  font-stretch:inherit;
+  font-style:inherit;
+  font-variant:inherit;
+  font-weight:inherit;
+  line-height:inherit;
+  margin:0;
+  outline:none;
+  padding:0;
+  vertical-align:baseline;
+}
+html {
+  overflow-y:scroll;
+}
+body {
+  background:url(../../images/bg-image2.png) #FAFAFA;
+  color:#414141;
+  font-family:Helvetica, 'Trebuchet MS', Tahoma, sans-serif;
+  font-size:62.5%;
+  line-height:1;
+}
+br {
+  display:block;
+  line-height:1.6em;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display:block;
+}
+ol, ul {
+  list-style:none;
+}
+input, textarea {
+  -webkit-font-smoothing:antialiased;
+  box-sizing:border-box;
+  outline:none;
+}
+blockquote, q {
+  quotes:none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content:none;
+}
+strong, b {
+  font-weight:bold;
+}
+em, i {
+  font-style:italic;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+img {
+  border:0;
+  height:auto;
+  max-width:100%;
+  width:100%;
+}
+nav {
+  background:#384958;
+  display:block;
+  height:70px;
+  width:100%;
+}
+.wrapper {
+  display:block;
+  margin:0 auto;
+  width:750px;
+}
+#menu {
+  display:block;
+  position:relative;
+  z-index:99;
+}
+#menu li {
+  display:block;
+  float:left;
+}
+#menu li a {
+  color:#F5F5F5;
+  display:block;
+  float:left;
+  font-size:1.5em;
+  font-weight:bold;
+  line-height:70px;
+  padding:0 35px;
+  position:relative;
+  text-decoration:none;
+}
+#menu li a:hover, #menu li a.active {
+  background:#FFFFFF;
+  color:#2C343B;
+}
+#menu li ul {
+  -webkit-box-shadow:rgba(0, 0, 0, 0.45098) 0 2px 7px;
+  background:#FFFFFF;
+  box-shadow:rgba(0, 0, 0, 0.45098) 0 2px 7px;
+  display:none;
+  position:absolute;
+  top:70px;
+  width:200px;
+  z-index:-1;
+}
+#menu li ul li {
+  display:block;
+  width:200px;
+}
+#menu li ul li a {
+  color:#4E5B67;
+  display:block;
+  float:none;
+  font-size:1.35em;
+  line-height:50px;
+  padding:0 15px;
+}
+#menu li ul li a:hover {
+  background:#384958;
+  color:#FFFFFF;
+}
+#menu li ul.expanded {
+  width:400px;
+}
+#menu li ul.expanded li {
+  margin-right:200px;
+}
+#menu li ul li ul {
+  -webkit-box-shadow:none;
+  background:none;
+  box-shadow:none;
+  display:none;
+  height:100%;
+  left:200px;
+  position:absolute;
+  top:0;
+}
+#menu li ul li ul li a {
+  color:#FFFFFF;
+}
+#menu li ul li ul li a:hover {
+  text-decoration:underline;
+}
+#menu li ul li.purple a:hover, #menu li ul li.purple a.active {
+  background:#4F4C83;
+  color:#FFFFFF;
+}
+#menu li ul li.purple ul {
+  background:#4F4C83;
+}
+#menu li ul li.green a:hover, #menu li ul li.green a.active {
+  background:#65834C;
+  color:#FFFFFF;
+}
+#menu li ul li.green ul {
+  background:#65834C;
+}
+#menu li ul li.aqua a:hover, #menu li ul li.aqua a.active {
+  background:#4C7983;
+  color:#FFFFFF;
+}
+#menu li ul li.aqua ul {
+  background:#4C7983;
+  color:#FFFFFF;
+}
+#menu li ul li.red a:hover, #menu li ul li.red a.active {
+  background:#834C4C;
+  color:#FFFFFF;
+}
+#menu li ul li.red ul {
+  background:#834C4C;
+}
+#menu li ul li.blue a:hover, #menu li ul li.blue a.active {
+  background:#4D6899;
+  color:#FFFFFF;
+}
+#menu li ul li.blue ul {
+  background:#4D6899;
+}
+#menu li ul li.gold a:hover, #menu li ul li.gold a.active {
+  background:#97944C;
+  color:#FFFFFF;
+}
+#menu li ul li.gold ul {
+  background:#97944C;
+}
+.clearfix::after {
+  clear:both;
+  content:'.';
+  display:block;
+  height:0;
+  line-height:0;
+  visibility:hidden;
+}
+.clearfix {
+  display:inline-block;
+}
+html[xmlns] .clearfix {
+  display:block;
+}
+* html .clearfix {
+  height:1%;
+}
